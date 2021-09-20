@@ -28,7 +28,7 @@ https://www.kaggle.com/garyongguanjie/minjobqualification:
 
  * What is the minimum education level required for different positions?
 
-While the classifier repo achieved a ~77% classification precision using job descriptions to classify position name, they didn't perform an analysis on that relationship revealing what positions require what responsabilities/requirements/whatever else is included in a description. My research question for this data vis project is: what position(s) are right for me, my skills, and my experience? Googling the most common job positions, here are their definitions:
+While the classifier repo achieved a ~77% classification precision using job descriptions to classify position name, they didn't perform an analysis on that relationship revealing what positions require what responsabilities/requirements/whatever else is included in a description. My research question for this data vis project is: what position(s) are right for me, my skills, and my experience? Googling the most common job positions, here are their definitions. How well do actual job listings adhear to these definitions?:
 
  * Associate data scientist: The Associate Data Scientist is responsible for collecting, interpreting, and publishing data to guide business decisions. Candidate must have ability to perform cleaning, transforming, and structuring of multiple disparate data sources using tools such as Python or R.
  * Data scientist: Data scientists work closely with business stakeholders to understand their goals and determine how data can be used to achieve those goals. They design data modeling processes, create algorithms and predictive models to extract the data the business needs, and help analyze the data and share insights with peers.
