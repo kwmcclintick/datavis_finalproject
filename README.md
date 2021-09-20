@@ -50,10 +50,12 @@ While the classifier repo achieved a ~77% classification precision using job des
 
 ## Prototypes
 
-I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
+I’ve created a proof of concept visualization of this data. I have used the Doc2Vec natural language processing algorithm in Python to seperately embed each description and position into a constant length vector of floats. Then, I used the t-distributed stochastic neighbor embedding to further reduce the dimension of the Doc2Vec embeddings to 2, such that they may be plotted in a scatter plot. The t-sne embeddings also accomplish the role of clustering, or separating the population of embeddings into similar subgroups. Finally, I've connected each position-description pair with a thin black line.
 
 ![Screenshot](prototype.png)
 
-## Open Questions
+## Remaining Tasks
 
-(describe any fear, uncertainty, or doubt you’re having about the feasibility of implementing the sketched system. For example, “I’m not sure where to get the geographic shapes to build a map from this data” or “I don’t know how to resolve the codes to meaningful names” … Feel free to delete this section if you’re confident.)
+ * Firstly, this is not a Python class, so my ultimate visualization will of course have to be using D3/React/one of the javascript languages/APIs we have learned in this course.
+ * If I decide to continue with the t-sne visualization, I must add callouts to the clusters that describe a representative data point of that cluster. For instance, a text callout for one of the position clusters that reads "data scientist" or, for descriptions, "SQL experience required"
+ * I would like to incorperate the theoretical descriptions of these positions as well, perhaps in a second, seperate figure. I not only want to relate descriptions to positions, but descriptions to descriptions.
