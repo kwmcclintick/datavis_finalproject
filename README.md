@@ -47,7 +47,7 @@ While the classifier repo achieved a ~77% classification precision using job des
 
 I’ve created a sketch of this data. I want to use the Doc2Vec natural language processing algorithm in Python to seperately embed each description and position into a constant length vector of floats. Then, I want to use the t-distributed stochastic neighbor (t-sne) embedding to further reduce the dimension of the Doc2Vec embeddings to 2, such that they may be plotted in a scatter plot. The t-sne embeddings also accomplishes the role of clustering, or separating the population of embeddings into similar subgroups, such that even if I choose a vector length of 2 for Doc2Vec, the visualization will benefit from the t-sne clustering. Finally, I want to connect each position-description pair with a thin black line.
 
-![Screenshot](sketch.pdf)
+![Screenshot](sketch.png)
 
 ## Prototypes
 
