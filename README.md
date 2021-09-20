@@ -2,38 +2,44 @@
 
 ## Data
 
-The data I propose to visualize for my project is ...
+For those who are actively looking for data scientist jobs in the U.S., the best news this month is the LinkedIn Workforce Report August 2018. According to the report, there is a shortage of 151,717 people with data science skills, with particularly acute shortages in New York City, San Francisco Bay Area and Los Angeles. To help job hunters to better understand the job market, Shanshan Lu scraped Indeed website and collected information of 7,000 data scientist jobs around the U.S. on August 3rd. The information that he collected are: Company Name, Position Name, Location, Job Description, and Number of Reviews of the Company.
+
+https://www.kaggle.com/sl6149/data-scientist-job-market-in-the-us
+
+## Questions & Tasks
+
+I am on schedule to graduate with a PhD in EE this December and I've begun applying to machine learning jobs. Something that has confused me a bit is how many different titles exist for very similar jobs (i.e., data/ML/AI... combined with analyst/scientist/engineer/researcher/...).
+
+Given Kaggle's active communitty, a number of coding repos are available that ask the following questions already, including https://www.kaggle.com/kambojharyana/exploration-data-scientist-job-market:
+
+ * Who gets hired? What kind of talent do employers want when they are hiring a data scientist?
+ * Which location has the most opportunities?
+ * What skills, tools, degrees or majors do employers want the most for data scientists?
+ * What's the difference between data scientist, data engineer and data analyst?
+ * Can you develop an efficient classification algorithm to differentiate the three job types above?
+
+https://www.kaggle.com/carriech/data-scientist-job-market-u-s-data-viz:
+
+ * What position names are the most common?
+ * What locations have the most jobs?
+ * What companies have the most jobs?
+
+https://www.kaggle.com/garyongguanjie/minjobqualification:
+
+ * What is the minimum education level required for different positions?
+
+While the classifier repo achieved a ~77% classification precision using job descriptions to classify position name, they didn't perform an analysis on that relationship revealing what positions require what responsabilities/requirements/whatever else is included in a description. My research question for this data vis project is: what position(s) are right for me, my skills, and my experience?
+
+## Sketches
+
+(insert one or more hand-drawn sketches of interactive visualizations that you imagine)
+(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
 
 ## Prototypes
 
 I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
 
 ![Screenshot](prototype.png)
-
-(please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments, and link to them)
-
-You can make images into links like this:
-
-```
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
-```
-
-
-Also, you can study the [source](https://raw.githubusercontent.com/curran/dataviz-project-template-proposal/master/README.md) to figure out Markdown formatting. You can use the GitHub built-in editor to edit the document.
-
-## Questions & Tasks
-
-The following tasks and questions will drive the visualization and interaction decisions for this project:
-
- * (insert your question or task here) How does the X vary over time?
- * (insert your question or task here) Is there any correlation between X and Y?
- * (insert your question or task here) Are there interesting spatial patterns in X?
- * (insert your question or task here) How many X are there across different Y?
-
-## Sketches
-
-(insert one or more hand-drawn sketches of interactive visualizations that you imagine)
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
 
 ## Open Questions
 
