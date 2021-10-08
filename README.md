@@ -4,9 +4,9 @@
 
 For those who are actively looking for data scientist jobs in the U.S., the best news this month is the LinkedIn Workforce Report August 2018. According to the report, there is a shortage of 151,717 people with data science skills, with particularly acute shortages in New York City, San Francisco Bay Area and Los Angeles. To help job hunters to better understand the job market, Shanshan Lu scraped Indeed website and collected information of 7,000 data scientist jobs around the U.S. on August 3rd. The [information](https://www.kaggle.com/sl6149/data-scientist-job-market-in-the-us) that he collected are: Company Name, Position Name, Location, Job Description, and Number of Reviews of the Company.
 
-## Questions & Tasks
+## Others' Work
 
-I am on schedule to graduate with a PhD in EE this December and I've begun applying to machine learning jobs. Something that has confused me a bit is how many different titles exist for very similar jobs (i.e., data/ML/AI... combined with analyst/scientist/engineer/researcher/...).
+I am on schedule to graduate with a PhD in EE this December and I've begun applying to machine learning jobs. Something that has confused me a bit is how many different titles exist for very similar jobs (i.e., data scientists and machine learning engineers will share many technical qualifications such as SQL, Python, Torch/Tensorflow, R).
 
 Given Kaggle's active communitty, a number of coding repos are available that ask the following questions already, including [Exploration - Data Scientist job market
 ](https://www.kaggle.com/kambojharyana/exploration-data-scientist-job-market):
@@ -27,10 +27,12 @@ Given Kaggle's active communitty, a number of coding repos are available that as
 
  * What is the minimum education level required for different positions?
 
-While the classifier repo achieved a ~77% classification precision using job descriptions to classify position name, they didn't perform an analysis on that relationship revealing what positions require what responsabilities/requirements/whatever else is included in a description. My research questions for this data vis project are:
+## My Questions
+
+While the classifier repository achieved a ~77% classification precision using job descriptions to classify position name, they didn't perform an analysis on that relationship revealing what positions require what responsabilities/requirements/whatever else is included in a description. My research questions for this data vis project are:
 * What position(s) are right for me, my skills, and my experience?
-* How strong are these correlations between description and position name?
-* How strongly do actual job listings match online definitions for these roles?
+* How strongly are job description and position names correlated? In other words, can I achieve more than 77% classification precision? What types of positions are difficult to classify given descriptions?
+* How strongly do actual job listings match online definitions for these positions?
 
 Googling the most common job positions, here are their definitions. How well do actual job listings adhear to these definitions?:
 
@@ -59,8 +61,7 @@ I've created a prototype of the sketch in Python, shown here.
 
 ![Screenshot](prototype.png)
 
-## Remaining Tasks
+## Schedule of Deliverables
 
- * Firstly, this is not a Python class, so my ultimate visualization will of course have to be using D3/React/one of the javascript languages/APIs we have learned in this course.
- * If I decide to continue with the t-sne visualization, I must add callouts to the clusters that describe a representative data point of that cluster. For instance, a text callout for one of the position clusters that reads "data scientist" or, for descriptions, "SQL experience required"
- * I would like to incorperate the theoretical descriptions of these positions as well, perhaps in a second, seperate figure. I not only want to relate descriptions to positions, but descriptions to descriptions.
+ * October 13th: Aggregate all job positions into one of the following classes: Data Scientist, Machine Learning Engineer, Data Analyst, Data Science Manager and Others. 
+  * test
