@@ -63,5 +63,9 @@ I've created a prototype of the sketch in Python, shown here.
 
 ## Schedule of Deliverables
 
- * October 13th: Aggregate all job positions into one of the following classes: Data Scientist, Machine Learning Engineer, Data Analyst, Data Science Manager and Others. 
-   * test
+ * Week starting with October 13th: Preprocess data and perform classification
+   * Convert job descriptions to term-frequency times inverse document-frequency ([TFIDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)) features
+   * Aggregate all job positions into one of the following [one-hot](https://en.wikipedia.org/wiki/One-hot) encoded classes: Data Scientist, Machine Learning Engineer, Data Analyst, Data Science Manager and Others
+   * Explore alternative classifiers to the linear [SVM](https://en.wikipedia.org/wiki/Support-vector_machine) model used in other people's works. Is a linear model the best
+ * Week starting with October 20th: Visualize performance using javascript, not Python
+ * Week starting with October 27th: 
