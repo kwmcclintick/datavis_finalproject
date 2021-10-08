@@ -67,5 +67,12 @@ I've created a prototype of the sketch in Python, shown here.
    * Convert job descriptions to term-frequency times inverse document-frequency ([TFIDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)) features
    * Aggregate all job positions into one of the following [one-hot](https://en.wikipedia.org/wiki/One-hot) encoded classes: Data Scientist, Machine Learning Engineer, Data Analyst, Data Science Manager and Others
    * Explore alternative classifiers to the linear [SVM](https://en.wikipedia.org/wiki/Support-vector_machine) model used in other people's works. Is a linear model the best
- * Week starting with October 20th: Visualize performance using javascript, not Python
- * Week starting with October 27th: 
+ * Week starting with October 20th: Visualize classifier performance drawing attention to classes that classify poorly and attempt to answer why that is
+ * Week starting with October 27th: Identify and visualize top description keywords for each position category
+ * Week starting with November 3rd: Preprocess definitions and perform classification
+   * Create a small test data set of job descriptions from reputable websites by searching for the official definitions of each of our 5 position title classes
+ * Week starting with November 10th: Evaluate and visualize performance of official definitions when tested using a model trained with real-world job postings.
+   * Which locations or companies poorly match their job descriptions to official definitions?
+ * Week starting with November 17th: Write a job description that fits my own background and skills. Which job position best fits me? Which job is the second best fit?
+ * Week starting with November 24th: Buffer week. Catch up on tasks that took longer than the 1 week allocated
+ * Week starting with December 1st: Buffer week. Finish remaining tasks that took longer than the 1 week allocated
