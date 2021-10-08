@@ -64,4 +64,4 @@ I've created a prototype of the sketch in Python, shown here.
 ## Schedule of Deliverables
 
  * October 13th: Aggregate all job positions into one of the following classes: Data Scientist, Machine Learning Engineer, Data Analyst, Data Science Manager and Others. 
-  * test
+   * test
