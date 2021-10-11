@@ -76,3 +76,7 @@ I've created a prototype of the sketch in Python, shown here.
  * Week starting with November 17th: Write a job description that fits my own background and skills. Which job position best fits me? Which job is the second best fit?
  * Week starting with November 24th: Buffer week. Catch up on tasks that took longer than the 1 week allocated
  * Week starting with December 1st: Buffer week. Finish remaining tasks that took longer than the 1 week allocated
+
+## Progress Reports
+# 10/11/21
+I've found out that linear SVM classifiers are indeed the best for NLP generally, however I found that a bagging ensemble of 30 classifiers improved classification precision from 77% to 95%. Additionally, I've found that incorrect classifications consistently occur most commonly with the "Data analyst" and "Manager" positions because they have the least amount of data, not because the job descriptions are poorly correlated to the job titles. I've inspected the job descriptions of incorrect classifications for these two classes and they seem fine, including highly correlated keywords such as "team work" and "leading" for the "manager" class. I'm going to begin work for the next work week on visualizing an interactive confusion matrix plot using "cm.csv" in D3 using react.
